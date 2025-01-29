@@ -1,38 +1,38 @@
 # ARPoly
 
-An educational AR app made in Unity with Vuforia and written in C#. 
+Unity ve Vuforia kullanılarak C# ile geliştirilmiş eğitsel bir AR (Artırılmış Gerçeklik) uygulaması.
 
-App was made for my MSc project: Assessing the viability of use of Augmented Reality in aiding education of primary school children in developing countries. 
+Bu uygulama, gelişmekte olan ülkelerdeki ilkokul çocuklarının eğitiminde Artırılmış Gerçeklik kullanımının uygulanabilirliğini değerlendiren yüksek lisans projesi için geliştirilmiştir.
 
-## Features
+## Özellikler
 
-- 4 scenes: MainMenu, Batch1, Batch2, Endgame
-- Each batch contains 5 3D models with descriptions
-- Models are displayed for two minutes each
-- Integrated feedback sounds throughout the app
-- Single Game Manager script
-- Optional skip button
+- 4 sahne: AnaMenü, Grup1, Grup2, OyunSonu
+- Her grupta açıklamalı 5 adet 3B model
+- Her model 2 dakika boyunca gösterilir
+- Uygulama genelinde sesli geri bildirimler
+- Tek Oyun Yöneticisi scripti
+- İsteğe bağlı atlama butonu
 
-## Technical Details
+## Teknik Detaylar
 
-- Unity version 2019.1.7f1
-- Vuforia version 8.3.8
+- Unity sürümü: 2019.1.7f1
+- Vuforia sürümü: 8.3.8
 
-## Setup Instructions
+## Kurulum Talimatları
 
-1. Download the repo and open it in Unity
-2. Get a Vuforia license (free license is fine)
-3. Navigate to Resources/VuforiaConfiguration
-4. Input your license in the appropriate field in the Inspector window
+1. Repo'yu indirin ve Unity'de açın
+2. Vuforia lisansı edinin (ücretsiz lisans yeterli)
+3. Resources/VuforiaConfiguration klasörüne gidin
+4. Inspector penceresindeki ilgili alana lisansınızı girin
 
-## License Notice
+## Lisans Bildirimi
 
-You can download and use the app, but you cannot use the 3D models or the target picture as they are either purchased or custom-made with restricted licenses.
+Uygulamayı indirebilir ve kullanabilirsiniz, ancak 3B modeller ve hedef resim satın alınmış veya özel olarak oluşturulmuş olduğundan ve sınırlı lisansa sahip olduğundan bunları kullanamazsınız.
 
-Project site: pkozakdev.com/ar
+Proje sitesi: pkozakdev.com/ar
 
-## Update History
+## Güncelleme Geçmişi
 
-Update 8.9.2019
-- Consolidated two Game Managers into single script
-- Added optional skip button (wasn't in the original build for a reason)
+8.9.2019 Güncellemesi
+- İki Oyun Yöneticisi tek script'te birleştirildi
+- İsteğe bağlı atlama butonu eklendi (orijinal sürümde özel bir nedenden dolayı yoktu)
